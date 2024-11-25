@@ -15,7 +15,14 @@ declare const Liferay: {
      * Call a Liferay service
      */
     Service: (service: string, params?: unknown, callback?: (obj: unknown) => void) => Promise<unknown>;
+
+    Icons: LiferayIcons;
 };
+
+interface LiferayIcons {
+    controlPanelSpritemap: string;
+    spritemap: string;
+}
 
 interface UserAgentApplication {
     /**

@@ -46,3 +46,6 @@ Liferay.OAuth2Client.FromParameters({
 });
 Liferay.OAuth2Client.FromUserAgentApplication("reference-code"); // $ExpectType LiferayOAuth2Client
 Liferay.OAuth2Client.fetch("/user/get-current-user-id"); // $ExpectType Promise<any>
+
+Liferay.Icons.controlPanelSpritemap; // $ExpectType string
+Liferay.Icons.spritemap; // $ExpectType string
